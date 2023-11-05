@@ -1,4 +1,4 @@
-## What is a bug?
+# What is a bug?
 # (claude-2: what is bug from standpoint of a qa engineer? generate strict answer, how lawyer would do)
 Here is a strict answer on how a QA engineer might define a bug from a legal perspective:
 A bug in software development refers to a defect or error in the code that causes unexpected or unintended behavior. From a QA engineer's standpoint, a bug is a flaw in the software that fails to meet the specified requirements or user expectations.
