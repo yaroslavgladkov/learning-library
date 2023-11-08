@@ -19,9 +19,9 @@ In summary, from a legal perspective, bugs in software may expose providers to b
 
 
 
-# 1 What does a bug report consist of? What fields should it have?
+# What does a bug report consist of? What fields should it have?
 
-## what does a bug report consist of? what fields should it have? generate professional comprehensive explanation
+## 1 what does a bug report consist of? what fields should it have? generate professional comprehensive explanation
 
 Here is a detailed explanation of what a bug report should consist of and the key fields it should include:
 
