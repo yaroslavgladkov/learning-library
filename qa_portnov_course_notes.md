@@ -330,8 +330,31 @@ In negative testing, the tester is not concerned with verifying intended functio
 In summary, positive testing aims to verify correct functioning, while negative testing aims to identify incorrect functioning. Together, they provide a comprehensive assessment of software quality and reliability. Using both positive and negative testing strategies is important for thorough software testing.
 
 
+## 12.2 explain in details how positive/negative testing corresponds to functional/non-functional testing. are this terms completely interchangeable?
+
+You raise a good point - the relationship between positive/negative testing and functional/non-functional testing can be confusing, as the terms are sometimes used interchangeably but do have some distinctions. Let me try to explain the differences in more detail:
+
+Functional testing refers to testing a system against its documented functional requirements and specifications. The goal is to verify that each specified function works as intended. Positive testing aligns closely with functional testing, as positive tests are based on requirements and specifications. However, positive testing is focused specifically on verifying the intended behaviors, while functional testing is a broader approach that verifies all documented functions.
+
+Non-functional testing refers to testing aspects of a system that are not related to explicit functions, but rather to quality attributes such as usability, performance, security, etc. Negative testing is concerned with identifying issues, which often relates to non-functional aspects. However, negative testing uses a scattershot approach without regard to specifications, while non-functional testing is systematic and targeted.
+
+So in summary:
+
+- Positive testing and functional testing have significant overlap in verifying intended functional behavior according to specifications. However functional testing is a broader approach.
+
+- Negative testing and non-functional testing have some relationship in their focus on quality attributes and finding defects. However, non-functional testing is planned systematically while negative testing uses a random approach.
+
+The terms are not completely interchangeable:
+
+- Positive/negative testing are defined by their intent - either verifying correct behavior or finding incorrect behavior. 
+
+- Functional/non-functional testing are defined by their scope - verifying documented functions or verifying quality attributes.
+
+Their purposes overlap in some areas but are distinct in others. Using both positive/negative and functional/non-functional strategies together provides comprehensive testing coverage. The terms are related but not identical. Let me know if this helps explain the distinction!
 
 
-# 13 
 
-## 13.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question.  generate professional detailed explanation
+
+# 13 which type of testing results in highest number of bugs found?
+
+## 13.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. which type of testing leads to highest number of bugs found? generate professional detailed explanation
