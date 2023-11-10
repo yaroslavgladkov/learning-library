@@ -691,11 +691,3 @@ Release Notes: This documents the new features, fixes and known issues included 
 Risk Analysis: Identifying areas of high risk that require more rigorous testing is an important QA task. Documents with risk evaluation criteria, probability and impact of risks, and mitigation strategies are needed.
 
 In summary, documentation is a big part of the QA role, from high-level strategy docs to detailed bug reports. Strong writing skills and attention to detail are essential. Let me know if you need any clarification or have additional questions!
-
-
-
-
-# 22 how will you write test cases for testing fields login and password, positive and negative testing?
-
-## 22.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. how will you write test cases for testing fields login and password, positive and negative testing? generate professional detailed explanation
-
