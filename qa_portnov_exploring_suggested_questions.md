@@ -2,7 +2,7 @@ claude-2 version
 
 # 1 what is quality?
 
-## 1.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is quality in general? generate professional detailed explanation
+## 1.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is quality in general? generate professional detailed explanation
 
 Here is a detailed explanation of quality in general:
 
@@ -25,7 +25,7 @@ In summary, quality combines objective elements related to engineering, manufact
 
 # 2 what is software quality?
 
-## 2.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is software quality? generate professional detailed explanation
+## 2.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is software quality? generate professional detailed explanation
 
 Here is a detailed explanation of what software quality is:
 
@@ -54,7 +54,7 @@ Achieving high quality requires following best practices in software engineering
 
 # 3 what is software quality assurance?
 
-## 3.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is software quality assurance? generate professional detailed explanation
+## 3.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is software quality assurance? generate professional detailed explanation
 
 Here is a detailed explanation of software quality assurance:
 
@@ -89,7 +89,7 @@ The main goal of SQA is to build quality into the software development process e
 
 # 4 what is the difference between software testing and software qa?
 
-## 4.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is the difference between software testing and software qa? generate professional detailed explanation
+## 4.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the difference between software testing and software qa? generate professional detailed explanation
 
 Here is a detailed explanation of the key differences between software testing and software QA:
 
@@ -120,7 +120,7 @@ In summary, software testing validates that the software meets requirements whil
 
 # 5 what is software testing?
 
-## 5.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is software testing? generate professional detailed explanation
+## 5.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is software testing? generate professional detailed explanation
 
 Here is a detailed explanation of software testing:
 
@@ -149,7 +149,7 @@ The different types and levels of software testing require expertise in software
 
 # 6 is it possible to find/fix all the bugs in a software product before it goes to the customers? then – why test?
 
-## 6.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. is it possible to find/fix all the bugs in a software product before it goes to the customers? then – why test? generate professional detailed explanation
+## 6.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. is it possible to find/fix all the bugs in a software product before it goes to the customers? then – why test? generate professional detailed explanation
 
 Here is a detailed explanation for why we test software even though it's not possible to find all bugs:
 
@@ -174,7 +174,7 @@ So in summary, testing is crucial and valuable even though finding 100% of bugs 
 
 # 7 what is black/white/gray box testing?
 
-## 7.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is black/white/gray box testing? generate professional detailed explanation
+## 7.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is black/white/gray box testing? generate professional detailed explanation
 
 Here is a detailed explanation of black box, white box, and gray box testing:
 
@@ -191,7 +191,7 @@ In summary, black box testing focuses on external behavior, white box testing fo
 
 # 8 what is a bug?
 
-## 8.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is a bug? generate professional detailed explanation
+## 8.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is a bug? generate professional detailed explanation
 
 Here is a detailed explanation of what a software bug is:
 
@@ -218,7 +218,7 @@ Bugs can range in severity from minor glitches to catastrophic failures. Good QA
 
 # 9 what is an use case?
 
-## 9.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is an use case? generate professional detailed explanation
+## 9.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is an use case? generate professional detailed explanation
 
 Here is a detailed explanation of what a use case is in software testing:
 
@@ -257,7 +257,7 @@ So in summary, use cases are a technique to capture functional requirements from
 
 # 10 what is the most important impact qa can have on a product development process?
 
-## 10.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is the most important impact qa can have on a product development process? generate professional detailed explanation
+## 10.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the most important impact qa can have on a product development process? generate professional detailed explanation
 
 Here is a detailed explanation of the most important impact QA can have on a product development process:
 
@@ -276,7 +276,7 @@ In summary, diligent QA testing and feedback throughout development reduces defe
 
 # 11 What is negative testing? positive?
 
-## 11.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is negative testing? what is the positive testing? generate professional detailed explanation
+## 11.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is negative testing? what is the positive testing? generate professional detailed explanation
 
 Here is a detailed explanation of negative and positive testing:
 
@@ -305,7 +305,7 @@ In summary, positive testing aims to verify correct functioning, while negative 
 
 # 12 What is negative testing? positive?
 
-## 12.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is negative testing? what is the positive testing? generate professional detailed explanation
+## 12.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is negative testing? what is the positive testing? generate professional detailed explanation
 
 Here is a detailed explanation of negative and positive testing:
 
@@ -357,7 +357,7 @@ Their purposes overlap in some areas but are distinct in others. Using both posi
 
 # 13 which type of testing results in highest number of bugs found?
 
-## 13.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. which type of testing leads to highest number of bugs found? generate professional detailed explanation
+## 13.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. which type of testing leads to highest number of bugs found? generate professional detailed explanation
 
 Here is a detailed explanation on which type of testing leads to the highest number of bugs found:
 
@@ -380,7 +380,7 @@ In summary, the freedom, adaptability, context-sensitivity and leveraging of hum
 
 # 14 what is the software development life cycle?
 
-## 14.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is the software development life cycle? generate professional detailed explanation
+## 14.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the software development life cycle? generate professional detailed explanation
 
 Here is a detailed explanation of the software development life cycle (SDLC):
 
@@ -401,7 +401,7 @@ The software development life cycle (SDLC) is a structured process for designing
 The SDLC provides a well-planned approach to software development with orderly stages, guidelines, reviews, and milestones. It ensures quality through requirements, design, coding, and testing standards. Following the SDLC leads to higher customer satisfaction, lower costs, reliable timelines, and minimized project risks.
 
 
-## 14.1.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what is the software development life cycle? what are its phases? generate professional detailed explanation
+## 14.1.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the software development life cycle? what are its phases? generate professional detailed explanation
 
 Here is a detailed explanation of the software development life cycle (SDLC) and its phases:
 
@@ -428,7 +428,7 @@ In summary, the SDLC provides a sequential framework of the tasks performed at e
 
 # 15 what are the levels of testing?
 
-## 15.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few question. what are the levels of testing? generate professional detailed explanation
+## 15.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what are the levels of testing? generate professional detailed explanation
 
 Here is a detailed explanation of the main levels of software testing:
 
