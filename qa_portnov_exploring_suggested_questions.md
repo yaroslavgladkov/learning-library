@@ -936,3 +936,28 @@ In summary, GUI standards are not handed down by any central authority. They evo
 
 
 
+# 30 what are the typical gui problems you look for on a web page?
+
+## 30.1 i am preparing for an interview on junior software qa engineer position, and need your help with answering a few questions. what are the typical gui problems you look for on a web page? generate professional detailed explanation
+
+Here are some typical GUI problems to look for when testing a web page as a junior QA engineer:
+
+- Layout and formatting issues - Check that page elements are aligned properly, spacing looks good, and the page displays correctly on different screen sizes. Look for overlapping text, images extending past their containers, and other layout problems.
+
+- Broken images/links - Verify all images are loading properly and are not distorted. Click on all links to check they go to the correct destination and do not lead to 404 errors.
+
+- Form validation - Test all forms by submitting with invalid data like missing required fields or improper formats. Error messages should appear and prevent submission. Try injecting incorrect data like SQL statements in free form fields.
+
+- Browser compatibility - Access the site on all supported browsers like Chrome, Firefox, Safari, IE, etc. Check that the UI looks consistent and functions properly across browsers. Note any issues with responsiveness or CSS styling.
+
+- UI bugs - Interact with all UI elements like menus, accordions, modals, carousels. Make sure they display and function as expected. Check for problems like overlapping menus, non-functional buttons, or popups that fail to trigger. 
+
+- Color contrast - Zoom in and inspect colors to ensure proper contrast between background and foreground colors. This helps legibility and accessibility.
+
+- Keyboard navigation - Tab through the interface to verify keyboard accessibility and cursor focus styles. All interactive elements should be reachable this way.
+
+Let me know if you need any clarification or have additional questions! Speaking to these points will demonstrate your knowledge of common GUI test practices for a junior role.
+
+
+
+
