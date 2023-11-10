@@ -399,7 +399,7 @@ In summary, the SDLC provides a sequential framework of the tasks performed at e
 
 # 14 what are the levels of testing?
 
-## 15.1 i am preparing for an interview on junior software qa engineer position, and need your help with answering a few questions. what are the levels of testing? generate professional detailed explanation
+## 14.1 i am preparing for an interview on junior software qa engineer position, and need your help with answering a few questions. what are the levels of testing? generate professional detailed explanation
 
 Here is a detailed explanation of the main levels of software testing:
 
