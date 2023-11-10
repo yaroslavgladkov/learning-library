@@ -276,7 +276,7 @@ In summary, diligent QA testing and feedback throughout development reduces defe
 
 # 11 What is negative testing? positive?
 
-## 11.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is negative testing? what is the positive testing? generate professional detailed explanation
+## 11.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is negative testing? what is positive testing? generate professional detailed explanation
 
 Here is a detailed explanation of negative and positive testing:
 
@@ -301,36 +301,7 @@ In negative testing, the tester is not concerned with verifying intended functio
 In summary, positive testing aims to verify correct functioning, while negative testing aims to identify incorrect functioning. Together, they provide a comprehensive assessment of software quality and reliability. Using both positive and negative testing strategies is important for thorough software testing.
 
 
-
-
-# 12 What is negative testing? positive?
-
-## 12.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is negative testing? what is the positive testing? generate professional detailed explanation
-
-Here is a detailed explanation of negative and positive testing:
-
-Positive testing, also known as functional testing, is the process of testing software to verify that the system works as intended and meets the specified requirements. The goal of positive testing is to ensure that the major functions of the system operate correctly. Some examples of positive tests would be:
-
-- Verifying that a user can successfully log in with valid credentials
-- Checking that a payment transaction completes successfully when valid payment information is provided  
-- Confirming that a file uploads successfully to the server
-
-In positive testing, test cases are based on the software requirements and specifications. The tests are designed to show that the system performs the intended functions correctly. 
-
-Negative testing, also known as non-functional testing, focuses on finding bugs, errors, and vulnerabilities in the system. The goal of negative testing is to deliberately make the system fail in order to identify defects and areas for improvement. Negative tests are designed without specific reference to the software specifications. Some examples of negative tests include:
-
-- Trying to log in with invalid credentials to see how the system handles unauthorized access
-- Entering invalid payment information to verify the system's error handling
-- Testing upload limits by attempting to upload overly large files
-- Submitting empty fields in a web form to check required field validations
-- Entering invalid data types to check input validation 
-
-In negative testing, the tester is not concerned with verifying intended functionality. Rather, the goal is to break or crash the system by providing unexpected, random, or invalid inputs. This helps reveal bugs and security issues that positive testing alone may not uncover. Effective negative testing requires creativity, intuition, and skill to discover edge cases not covered in the specifications.
-
-In summary, positive testing aims to verify correct functioning, while negative testing aims to identify incorrect functioning. Together, they provide a comprehensive assessment of software quality and reliability. Using both positive and negative testing strategies is important for thorough software testing.
-
-
-## 12.1.1 explain in details how positive/negative testing corresponds to functional/non-functional testing. are this terms completely interchangeable?
+## 11.1.1 explain in details how positive/negative testing corresponds to functional/non-functional testing. are this terms completely interchangeable?
 
 You raise a good point - the relationship between positive/negative testing and functional/non-functional testing can be confusing, as the terms are sometimes used interchangeably but do have some distinctions. Let me try to explain the differences in more detail:
 
@@ -355,9 +326,9 @@ Their purposes overlap in some areas but are distinct in others. Using both posi
 
 
 
-# 13 which type of testing results in highest number of bugs found?
+# 12 which type of testing results in highest number of bugs found?
 
-## 13.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. which type of testing leads to highest number of bugs found? generate professional detailed explanation
+## 12.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. which type of testing leads to highest number of bugs found? generate professional detailed explanation
 
 Here is a detailed explanation on which type of testing leads to the highest number of bugs found:
 
@@ -378,9 +349,9 @@ In summary, the freedom, adaptability, context-sensitivity and leveraging of hum
 
 
 
-# 14 what is the software development life cycle?
+# 13 what is the software development life cycle?
 
-## 14.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the software development life cycle? generate professional detailed explanation
+## 13.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the software development life cycle? generate professional detailed explanation
 
 Here is a detailed explanation of the software development life cycle (SDLC):
 
@@ -401,7 +372,7 @@ The software development life cycle (SDLC) is a structured process for designing
 The SDLC provides a well-planned approach to software development with orderly stages, guidelines, reviews, and milestones. It ensures quality through requirements, design, coding, and testing standards. Following the SDLC leads to higher customer satisfaction, lower costs, reliable timelines, and minimized project risks.
 
 
-## 14.1.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the software development life cycle? what are its phases? generate professional detailed explanation
+## 13.1.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what is the software development life cycle? what are its phases? generate professional detailed explanation
 
 Here is a detailed explanation of the software development life cycle (SDLC) and its phases:
 
@@ -426,7 +397,7 @@ In summary, the SDLC provides a sequential framework of the tasks performed at e
 
 
 
-# 15 what are the levels of testing?
+# 14 what are the levels of testing?
 
 ## 15.1 i am preparing for interview on junior software qa engineer position, and need your help with answering a few questions. what are the levels of testing? generate professional detailed explanation
 
@@ -450,7 +421,7 @@ Regression Testing
 Let me know if you need any clarification or have additional questions! I'm happy to explain software testing concepts in more detail.
 
 
-## 15.1.1 what is the generalized base for this classification?
+## 14.1.1 what is the generalized base for this classification?
 
 The main basis for classifying different levels of software testing is the scope and focus of what is being tested at each level:
 
