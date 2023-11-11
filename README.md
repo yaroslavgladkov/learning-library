@@ -16,6 +16,12 @@ URLs and notes on tech topics.
 # Chris Kanich
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
 
+# Apetech Tech Tutorials
+- [Master Jira in 60 Minutes!](https://www.youtube.com/watch?v=XeCFPmsV7ak)
+
+# Software Testing Mentor
+- [JIRA Agile Test Management | Jira Xray Tutorial | Jira Test Management | Jira for Beginners](https://www.youtube.com/playlist?list=PLL34mf651faNUgGS8Uj4XC-GJFcjD2Fyr)
+
 # DevOps Directive
 - [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
 
