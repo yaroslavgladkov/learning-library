@@ -12,4 +12,6 @@ URLs and notes on tech topics.
 - [The C language (unit 2)](https://www.youtube.com/playlist?list=PLFBF5D9C5840A573F)
 - [Data Structures](https://www.youtube.com/playlist?list=PLA7BE376E483F4EE4)
 - [Searching and Sorting Algorithms](https://www.youtube.com/playlist?list=PLB506CF2AF32D8617)
+
+# Chris Kanich
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
