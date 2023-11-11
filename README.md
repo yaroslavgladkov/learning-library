@@ -15,3 +15,8 @@ URLs and notes on tech topics.
 
 # Chris Kanich
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
+
+# Mikhail Portnov
+- [QA-2011](https://portnov.net/ru/)
+- [QA-2018](https://www.portnov.com/ru-2018/)
+- [QA-2022](https://portnov.net/ru-2022/)
