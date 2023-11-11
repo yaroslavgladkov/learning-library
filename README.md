@@ -16,6 +16,14 @@ URLs and notes on tech topics.
 # Chris Kanich
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
 
+# Dmitry Ketov
+- [Operating System Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
+
+# Mikhail Portnov
+- [QA-ru-2011](https://portnov.net/ru/)
+- [QA-ru-2018](https://www.portnov.com/ru-2018/)
+- [QA-ru-2022](https://portnov.net/ru-2022/)
+
 # Apetech Tech Tutorials
 - [Master Jira in 60 Minutes!](https://www.youtube.com/watch?v=XeCFPmsV7ak)
 
@@ -27,8 +35,3 @@ URLs and notes on tech topics.
 
 # Traversy Media
 - [Modern JavaScript From The Beginning | First 12 Hours](https://www.youtube.com/watch?v=BI1o2H9z9fo)
-
-# Mikhail Portnov
-- [QA-ru-2011](https://portnov.net/ru/)
-- [QA-ru-2018](https://www.portnov.com/ru-2018/)
-- [QA-ru-2022](https://portnov.net/ru-2022/)
