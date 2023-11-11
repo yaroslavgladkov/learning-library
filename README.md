@@ -19,6 +19,9 @@ URLs and notes on tech topics.
 # DevOps Directive
 - [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
 
+# Traversy Media
+- [Modern JavaScript From The Beginning | First 12 Hours](https://www.youtube.com/watch?v=BI1o2H9z9fo)
+
 # Mikhail Portnov
 - [QA-ru-2011](https://portnov.net/ru/)
 - [QA-ru-2018](https://www.portnov.com/ru-2018/)
