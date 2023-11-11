@@ -16,7 +16,10 @@ URLs and notes on tech topics.
 # Chris Kanich
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
 
+# DevOps Directive
+- [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
+
 # Mikhail Portnov
-- [QA-2011](https://portnov.net/ru/)
-- [QA-2018](https://www.portnov.com/ru-2018/)
-- [QA-2022](https://portnov.net/ru-2022/)
+- [QA-ru-2011](https://portnov.net/ru/)
+- [QA-ru-2018](https://www.portnov.com/ru-2018/)
+- [QA-ru-2022](https://portnov.net/ru-2022/)
