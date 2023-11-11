@@ -1,4 +1,4 @@
-# learning_library
+# Learning Library
 URLs and notes on tech topics.
 
 # Brian Will
