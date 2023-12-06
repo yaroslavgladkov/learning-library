@@ -15,6 +15,7 @@ URLs and notes on tech topics.
 
 # Additional materials on OS basics
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
+- [Linux Directories Explained in 100 seconds](https://youtu.be/42iQKuQodW4)
 
 # Chris Kanich
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
