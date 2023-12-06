@@ -20,6 +20,9 @@ URLs and notes on tech topics.
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
 - [Linux Directories Explained in 100 Seconds](https://youtu.be/42iQKuQodW4)
 
+# Learn Linux TV
+- [Linux Commands for Beginners](https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ)
+
 # Dmitry Ketov
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
