@@ -13,12 +13,12 @@ URLs and notes on tech topics.
 - [Data Structures](https://www.youtube.com/playlist?list=PLA7BE376E483F4EE4)
 - [Searching and Sorting Algorithms](https://www.youtube.com/playlist?list=PLB506CF2AF32D8617)
 
+# Chris Kanich
+- [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
+
 # Additional materials on OS basics
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
 - [Linux Directories Explained in 100 seconds](https://youtu.be/42iQKuQodW4)
-
-# Chris Kanich
-- [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
 
 # Dmitry Ketov
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
