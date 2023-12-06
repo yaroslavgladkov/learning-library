@@ -17,7 +17,7 @@ URLs and notes on tech topics.
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
 
 # Dmitry Ketov
-- [Operating System Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
+- [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
 # Mikhail Portnov
 - [QA-ru-2011](https://portnov.net/ru/)
