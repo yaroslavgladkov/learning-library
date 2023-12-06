@@ -13,6 +13,9 @@ URLs and notes on tech topics.
 - [Data Structures](https://www.youtube.com/playlist?list=PLA7BE376E483F4EE4)
 - [Searching and Sorting Algorithms](https://www.youtube.com/playlist?list=PLB506CF2AF32D8617)
 
+# Additional materials on OS basics
+- [Linux inodes explained](https://youtu.be/6KjMlm8hhFA)
+
 # Chris Kanich
 - [CS 361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP)
 
