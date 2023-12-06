@@ -18,7 +18,7 @@ URLs and notes on tech topics.
 
 # Additional materials on OS basics
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
-- [Linux Directories Explained in 100 seconds](https://youtu.be/42iQKuQodW4)
+- [Linux Directories Explained in 100 Seconds](https://youtu.be/42iQKuQodW4)
 
 # Dmitry Ketov
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
