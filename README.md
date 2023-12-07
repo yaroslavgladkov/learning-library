@@ -19,7 +19,7 @@ URLs and notes on tech topics.
 # OS Basics: Additional
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
 - [Linux Directories Explained in 100 Seconds](https://youtu.be/42iQKuQodW4)
--[Linux stdin & stdout](https://chat.openai.com/share/08bb7b25-83e7-497c-bf53-2f1af1ec38d2)
+- [Linux stdin & stdout](https://chat.openai.com/share/08bb7b25-83e7-497c-bf53-2f1af1ec38d2)
 
 # Learn Linux TV
 - [Linux Commands for Beginners](https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ)
