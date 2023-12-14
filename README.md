@@ -27,11 +27,6 @@ URLs and notes on tech topics.
 # Dmitry Ketov
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
-# Mikhail Portnov
-- [QA-ru-2011](https://portnov.net/ru/)
-- [QA-ru-2018](https://www.portnov.com/ru-2018/)
-- [QA-ru-2022](https://portnov.net/ru-2022/)
-
 # Apetech Tech Tutorials
 - [Master Jira in 60 Minutes!](https://www.youtube.com/watch?v=XeCFPmsV7ak)
 
