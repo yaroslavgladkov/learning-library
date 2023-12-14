@@ -27,14 +27,8 @@ URLs and notes on tech topics.
 # Dmitry Ketov
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
-# Apetech Tech Tutorials
+# Additional
 - [Master Jira in 60 Minutes!](https://www.youtube.com/watch?v=XeCFPmsV7ak)
-
-# Software Testing Mentor
 - [JIRA Agile Test Management | Jira Xray Tutorial | Jira Test Management | Jira for Beginners](https://www.youtube.com/playlist?list=PLL34mf651faNUgGS8Uj4XC-GJFcjD2Fyr)
-
-# DevOps Directive
 - [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
-
-# Traversy Media
 - [Modern JavaScript From The Beginning | First 12 Hours](https://www.youtube.com/watch?v=BI1o2H9z9fo)
