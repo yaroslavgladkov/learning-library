@@ -26,6 +26,9 @@ URLs and notes on tech topics.
 # Dmitry Ketov
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
+# Test Automation University
+- [Learning Paths](https://testautomationu.applitools.com/learningpaths.html)
+
 # Additional
 - [Master Jira in 60 Minutes!](https://www.youtube.com/watch?v=XeCFPmsV7ak)
 - [JIRA Agile Test Management | Jira Xray Tutorial | Jira Test Management | Jira for Beginners](https://www.youtube.com/playlist?list=PLL34mf651faNUgGS8Uj4XC-GJFcjD2Fyr)
