@@ -1,4 +1,4 @@
-#Landing a job as a Java QA Automation Engineer requires a blend of **technical skills, testing knowledge, and practical experience**. Here's a detailed breakdown of what you should know:
+# Landing a job as a Java QA Automation Engineer requires a blend of **technical skills, testing knowledge, and practical experience**. Here's a detailed breakdown of what you should know:
 
 **Technical Skills:**
 
