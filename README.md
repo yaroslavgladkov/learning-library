@@ -16,7 +16,7 @@ URLs and notes on tech topics.
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
 # Chris Kanich
-- [CS361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP) (more like advertisement for [CSAPP-2016](https://github.com/ieroslau/learning-library/blob/main/CSAPP-2016.pdf))
+- [CS361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP) (in addition to [CSAPP-2016](https://github.com/ieroslau/learning-library/blob/main/CSAPP-2016.pdf))
 
 # OS Basics: Additional
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
