@@ -37,3 +37,4 @@ URLs and notes on tech topics.
 
 # Shared chats – Mixtral
 - [git repo ownership issue on termux, save.directory](https://hf.co/chat/r/Qdg4y9_)
+- [git commands overview](https://hf.co/chat/r/EkaKCfK)
