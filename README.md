@@ -17,7 +17,7 @@ URLs and notes on tech topics.
 
 # Dmitry Ketov
 - [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
-- 
+
 # OS Basics: Additional
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
 - [Linux Directories Explained in 100 Seconds](https://youtu.be/42iQKuQodW4)
