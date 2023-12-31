@@ -34,3 +34,6 @@ URLs and notes on tech topics.
 - [JIRA Agile Test Management | Jira Xray Tutorial | Jira Test Management | Jira for Beginners](https://www.youtube.com/playlist?list=PLL34mf651faNUgGS8Uj4XC-GJFcjD2Fyr)
 - [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
 - [Modern JavaScript From The Beginning | First 12 Hours](https://www.youtube.com/watch?v=BI1o2H9z9fo)
+
+# Shared chats – Mixtral
+- [git repo ownership issue on termux, save.directory](https://hf.co/chat/r/Qdg4y9_)
