@@ -35,8 +35,9 @@ URLs and notes on tech topics.
 - [Modern JavaScript From The Beginning | First 12 Hours](https://www.youtube.com/watch?v=BI1o2H9z9fo)
 
 # My chats
-* Mixtral8x7b
-- [git repo ownership issue on termux, save.directory](https://hf.co/chat/r/Qdg4y9_)
-- [git commands – brief overview](https://hf.co/chat/r/gBYVsa3)
-- [How to create bash script – brief overview](https://hf.co/chat/r/r6OhrOb)
-- [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
+- Mixtral8x7b
+ - [git repo ownership issue on termux, save.directory](https://hf.co/chat/r/Qdg4y9_)
+ - [git commands – brief overview](https://hf.co/chat/r/gBYVsa3)
+ - [How to create bash script – brief overview](https://hf.co/chat/r/r6OhrOb)
+ - [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
+ 
