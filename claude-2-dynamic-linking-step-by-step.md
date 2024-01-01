@@ -1,6 +1,6 @@
-#Provide detailed step-by-step explanation of how dynamic linking works in context of system programming
+# Provide detailed step-by-step explanation of how dynamic linking works in context of system programming
 
-##Here is a detailed step-by-step explanation of how dynamic linking works in the context of system programming:
+Here is a detailed step-by-step explanation of how dynamic linking works in the context of system programming:
 
 1. Compilation
 When source code is compiled into an executable file, any functions or libraries that are called but defined elsewhere are left as unresolved references. The compiler generates object code with placeholders for all unresolved references.
