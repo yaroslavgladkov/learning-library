@@ -1,4 +1,4 @@
-#Provide detailed explanation of what symbol resolution is in context of linking of object files
+# Provide detailed explanation of what symbol resolution is in context of linking of object files
 
 Symbol resolution refers to the process of resolving symbolic references during the linking of object files into an executable program. Here is a more detailed explanation:
 
@@ -16,7 +16,7 @@ Symbol resolution refers to the process of resolving symbolic references during 
 
 In summary, symbol resolution is a key part of linking where symbolic names used across multiple object files are assigned definite memory locations so that all the references can be connected accurately.
 
-#How are symbol, reference and definition represented technically? Provide c code example
+# How are symbol, reference and definition represented technically? Provide c code example
 
 Symbols, references and definitions are represented in the following technical ways in C code:
 
@@ -62,7 +62,7 @@ int x; // Definition with allocation
 
 So in summary, declarations introduce symbols, references/calls are made to those symbols, and definitions contain the symbol implementation. The linker matches references to definitions during build.
 
-#But what is the symbol if function is declared and referenced, but not defined, in particular piece of code?
+# But what is the symbol if function is declared and referenced, but not defined, in particular piece of code?
 
 Good question! If a function is declared and referenced but not defined in a particular piece of code, it is considered an undefined symbol. Here is what happens in this case:
 
@@ -96,7 +96,7 @@ In this code:
 
 In summary, such unresolved symbols are tracked as undefined references in object files emitted by the compiler. The linker attempts to find their definitions across all provided inputs.
 
-#Provide detailed explanation of what is the difference between symbol and reference?
+# Provide detailed explanation of what is the difference between symbol and reference?
 
 The main differences between a symbol and a reference are:
 
