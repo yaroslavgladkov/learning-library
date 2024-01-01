@@ -36,6 +36,6 @@ URLs and notes on tech topics.
 
 # My chats – Mixtral8x7b
 - [git repo ownership issue on termux, save.directory](https://hf.co/chat/r/Qdg4y9_)
-- [git commands – brief overview](https://hf.co/chat/r/EkaKCfK)
+- [git commands – brief overview](https://hf.co/chat/r/gBYVsa3)
 - [How to create bash script – brief overview](https://hf.co/chat/r/r6OhrOb)
 - [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
