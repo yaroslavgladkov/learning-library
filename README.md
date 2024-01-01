@@ -21,7 +21,6 @@ URLs and notes on tech topics.
 # OS Basics: Additional
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
 - [Linux Directories Explained in 100 Seconds](https://youtu.be/42iQKuQodW4)
-- [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
 
 # Learn Linux TV
 - [Linux Commands for Beginners](https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ)
@@ -35,7 +34,8 @@ URLs and notes on tech topics.
 - [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
 - [Modern JavaScript From The Beginning | First 12 Hours](https://www.youtube.com/watch?v=BI1o2H9z9fo)
 
-# Shared chats – Mixtral
+# My chats – Mixtral8x7b
 - [git repo ownership issue on termux, save.directory](https://hf.co/chat/r/Qdg4y9_)
 - [git commands – brief overview](https://hf.co/chat/r/EkaKCfK)
 - [How to create bash script – brief overview](https://hf.co/chat/r/r6OhrOb)
+- [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
