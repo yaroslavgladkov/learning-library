@@ -16,7 +16,7 @@ URLs and notes on tech topics.
 - [CS361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP) (in addition to [CSAPP-2016](https://github.com/yaraslau-h/learning-library/blob/main/CSAPP-2016.pdf))
 
 # Dmitry Ketov
-- [Operating Systems Basics](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
+- [Operating Systems Basics – RU](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
 # OS Basics: Additional
 - [Linux inodes Explained](https://youtu.be/6KjMlm8hhFA)
