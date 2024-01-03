@@ -14,6 +14,7 @@ URLs and notes on tech topics.
 
 # Chris Kanich
 - [CS361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP) (in addition to [CSAPP-2016](https://github.com/yaraslau-h/learning-library/blob/main/CSAPP-2016.pdf))
+- [CS484 Secure Web App Dev](https://youtube.com/playlist?list=PLhy9gU5W1fvVzUp2rumzEFwG71mEPLrBt)
 
 # Dmitry Ketov
 - [Operating Systems Basics – RU](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
