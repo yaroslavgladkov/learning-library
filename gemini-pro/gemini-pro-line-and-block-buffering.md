@@ -76,3 +76,57 @@ I hope this detailed explanation clarifies the concepts of line buffering and bl
 - Use `fflush` to manually flush a buffer if immediate output is required.
 - Be mindful of memory management when using custom buffers.
 - Refer to the C standard library documentation for detailed usage and error handling.
+
+# Provide detailed explanation of command stdbuf
+**Here's a detailed explanation of the `stdbuf` command in Linux:**
+
+**Purpose:**
+
+- Temporarily modifies the buffering behavior of standard input, output, and error streams of a command.
+- Allows you to control how data is written or read to/from these streams, potentially improving performance or responsiveness for specific tasks.
+
+**Syntax:**
+
+```bash
+stdbuf [OPTIONS] COMMAND [ARGUMENTS]
+```
+
+**Options:**
+
+- `-i`: Adjust buffering for standard input (`stdin`).
+- `-o`: Adjust buffering for standard output (`stdout`).
+- `-e`: Adjust buffering for standard error (`stderr`).
+- `L`: Set line buffering mode.
+- `0`: Disable buffering (unbuffered mode).
+- BUFFER_SIZE: Set a custom buffer size for full buffering mode (not supported on all systems).
+
+**Examples:**
+
+- **Force immediate output for a command:**
+   ```bash
+   stdbuf -o0 grep pattern large_file.txt
+   ```
+- **Set line buffering for a command's output in a pipeline:**
+   ```bash
+   tail -f log.txt | stdbuf -oL grep ERROR
+   ```
+- **Disable buffering for standard input:**
+   ```bash
+   stdbuf -i0 cat < input.txt
+   ```
+
+**Key points:**
+
+- `stdbuf` doesn't modify the command itself; it only affects its buffering behavior during execution.
+- It's often used in pipelines to control how commands interact with each other's output.
+- It's particularly useful for:
+    - Observing output in real-time from commands that would otherwise buffer output.
+    - Avoiding delays in interactive programs that rely on immediate user input.
+    - Optimizing performance for specific I/O-intensive tasks.
+- It's not a permanent change; the command's default buffering behavior resumes after execution.
+
+**Additional notes:**
+
+- The `-p` option (to set full buffering mode) is deprecated and not recommended.
+- Specifying a buffer size with `BUFFER_SIZE` might not work reliably on all systems.
+- For more complex buffering control within programs, consider using `setbuf` or `setvbuf` functions in C.
