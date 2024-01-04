@@ -35,3 +35,44 @@ The optimal buffering mode depends on the specific use case and desired performa
 * Buffering can also occur at multiple levels (e.g., kernel, libraries, program) with interactions affecting overall performance.
 
 I hope this detailed explanation clarifies the concepts of line buffering and block buffering in Linux, along with other buffering types. Feel free to ask if you have any further questions!
+
+# Provide more details on the following statement: Buffering behavior can be customized using library functions like setbuf and setvbuf.
+ **Here's a more detailed explanation of how you can customize buffering behavior using `setbuf` and `setvbuf` functions in Linux:**
+
+**1. `setbuf` function:**
+
+   - **Purpose:** Assigns a buffer to a stream, or disables buffering entirely.
+   - **Syntax:** `setbuf(stream, buffer)`
+     - `stream`: The file stream you want to modify (e.g., `stdout`, `stdin`, `stderr`, or a file pointer).
+     - `buffer`: A pointer to a buffer (usually a character array) to be used for buffering. If `buffer` is `NULL`, buffering is disabled.
+   - **Example:**
+     ```c
+     char my_buffer[1024];
+     setbuf(stdout, my_buffer); // Set a custom buffer for stdout
+     setbuf(stdin, NULL);      // Disable buffering for stdin
+     ```
+
+**2. `setvbuf` function:**
+
+   - **Purpose:** Offers more control over buffering mode and buffer size.
+   - **Syntax:** `setvbuf(stream, buffer, mode, size)`
+     - `stream`: The file stream you want to modify.
+     - `buffer`: A pointer to a buffer to be used (if `NULL`, an internal buffer is allocated).
+     - `mode`: Specifies the buffering mode:
+       - `_IONBF`: No buffering
+       - `_IOLBF`: Line buffering
+       - `_IOFBF`: Full buffering
+     - `size`: The size of the buffer (if using a custom buffer).
+   - **Example:**
+     ```c
+     setvbuf(stdout, NULL, _IOLBF, 0); // Set line buffering for stdout
+     setvbuf(file_ptr, my_buffer, _IOFBF, 4096); // Set full buffering with a custom buffer
+     ```
+
+**Key points:**
+
+- Call these functions after opening a stream but before performing any I/O operations on it.
+- Consider potential performance implications when customizing buffering, especially for I/O-intensive tasks.
+- Use `fflush` to manually flush a buffer if immediate output is required.
+- Be mindful of memory management when using custom buffers.
+- Refer to the C standard library documentation for detailed usage and error handling.
