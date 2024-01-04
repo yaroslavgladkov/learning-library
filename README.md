@@ -40,5 +40,4 @@ URLs and notes on tech topics.
   - [git commands – brief overview](https://hf.co/chat/r/gBYVsa3)
   - [How to create bash script – brief overview](https://hf.co/chat/r/r6OhrOb)
   - [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
-  - [Line buffering and block buffering](https://hf.co/chat/r/RYSAJOM)
- 
+  - [Line buffering and block buffering](https://hf.co/chat/r/FQnA6c2)
