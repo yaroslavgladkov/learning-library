@@ -1,4 +1,4 @@
-# Provide detailed explanation of what is invariant?
+# Provide detailed explanation of what invariant is
 
 An invariant is a property of a system, algorithm, function, or mathematical object that remains constant or unchanged even as that system or object goes through changes or transformations. Some key points about invariants:
 
