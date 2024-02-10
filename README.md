@@ -41,3 +41,5 @@ URLs and notes on tech topics.
   - [How to create bash script – brief overview](https://hf.co/chat/r/r6OhrOb)
   - [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
   - [Line buffering and block buffering](https://hf.co/chat/r/ZLkNUik)
+- Perplexity
+  - [drive partitioning for linux](https://www.perplexity.ai/search/provide-detailed-explanation-tJR6YylpSxS6LeUEHTahfw?s=m)
