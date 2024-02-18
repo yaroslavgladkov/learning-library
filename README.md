@@ -19,9 +19,6 @@ URLs and notes on tech topics.
 # Dmitry Ketov
 - [Operating Systems Basics – RU](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
-# OS Basics: Additional
-- Nothing here yet
-
 # Learn Linux TV
 - [Linux Commands for Beginners](https://youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ)
 
