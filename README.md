@@ -41,3 +41,5 @@ URLs and notes on tech topics.
   - [Installing WiFi driver in PopOS](https://hf.co/chat/r/AZ3XfnH)
 - Perplexity
   - [drive partitioning for linux](https://www.perplexity.ai/search/provide-detailed-explanation-tJR6YylpSxS6LeUEHTahfw?s=m)
+- Gemini-Pro
+  - [installing .deb in ubuntu](https://g.co/bard/share/54b249d68bdb)
