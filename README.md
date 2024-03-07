@@ -12,9 +12,12 @@ URLs and notes on tech topics.
 - [Data Structures](https://www.youtube.com/playlist?list=PLA7BE376E483F4EE4)
 - [Searching and Sorting Algorithms](https://www.youtube.com/playlist?list=PLB506CF2AF32D8617)
 
-# Chris Kanich
+# UIC – Chris Kanich
 - [CS361 Systems Programming](https://www.youtube.com/playlist?list=PLhy9gU5W1fvUND_5mdpbNVHC1WCIaABbP) (in addition to [CSAPP-2016](https://github.com/yaraslau-h/learning-library/blob/main/CSAPP-2016.pdf))
 - [CS484 Secure Web App Dev](https://youtube.com/playlist?list=PLhy9gU5W1fvVzUp2rumzEFwG71mEPLrBt)
+
+# USNA – Dr. Christopher W. Brown
+- [C. W. Brown's classes](https://www.usna.edu/Users/cs/wcbrown/teaching/Teaching.html)
 
 # Dmitry Ketov
 - [Operating Systems Basics – RU](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
