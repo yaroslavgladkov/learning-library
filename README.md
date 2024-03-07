@@ -33,14 +33,14 @@ URLs and notes on tech topics.
 - [JIRA Agile Test Management | Jira Xray Tutorial | Jira Test Management | Jira for Beginners](https://www.youtube.com/playlist?list=PLL34mf651faNUgGS8Uj4XC-GJFcjD2Fyr)
 - [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://www.youtube.com/watch?v=RqTEHSBrYFw)
 - [Modern JavaScript From The Beginning | First 12 Hours](https://www.youtube.com/watch?v=BI1o2H9z9fo)
-
-# My chats
+- 
+# Chats
 - Mixtral8x7b
   - [git repo ownership issue on termux, save.directory](https://hf.co/chat/r/Qdg4y9_)
   - [git commands – brief overview](https://hf.co/chat/r/gBYVsa3)
   - [How to create bash script – brief overview](https://hf.co/chat/r/r6OhrOb)
   - [Linux stdin & stdout](https://hf.co/chat/r/TUvZll3)
-  - [Line buffering and block buffering](https://hf.co/chat/r/ZLkNUik)
+  - [buffering types](https://hf.co/chat/r/ZLkNUik)
   - [Installing WiFi driver in PopOS](https://hf.co/chat/r/AZ3XfnH)
 - Perplexity
   - [drive partitioning for linux](https://www.perplexity.ai/search/provide-detailed-explanation-tJR6YylpSxS6LeUEHTahfw?s=m)
