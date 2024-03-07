@@ -19,7 +19,7 @@ URLs and notes on tech topics.
 # USNA – Dr. Christopher W. Brown
 - [C. W. Brown's classes](https://www.usna.edu/Users/cs/wcbrown/teaching/Teaching.html)
 
-# Dmitry Ketov
+# HSE.SPBSTU – Dmitry Ketov
 - [Operating Systems Basics – RU](https://www.youtube.com/playlist?list=PLHHm04DXWzeKuhdGFHSEWDpdgoYpjPptR)
 
 # Learn Linux TV
