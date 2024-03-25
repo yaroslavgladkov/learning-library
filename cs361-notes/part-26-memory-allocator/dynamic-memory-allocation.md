@@ -1,3 +1,5 @@
+claude-3-sonnet
+
 # provide detailed explanation of dynamic memory allocation
 
 Dynamic memory allocation is a technique in computer programming that allows programs to allocate memory at runtime, rather than having all memory statically allocated at compile time. This is particularly useful when the amount of memory required by a program cannot be determined until it is running, or when the memory requirements change dynamically during execution.
