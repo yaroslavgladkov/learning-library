@@ -1,3 +1,5 @@
+claude-3-sonnet
+
 # provide details explanation of coarse grained and fine grained based memory allocation and difference between them
 
 In the context of memory management, the terms "coarse-grained" and "fine-grained" refer to the granularity or the size of the memory blocks being allocated and managed. The difference between the two lies in the level of control and flexibility they offer over memory utilization.
