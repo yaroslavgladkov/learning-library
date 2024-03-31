@@ -217,3 +217,30 @@ And for a dual-boot setup with Ubuntu and Fedora, it would be:
 In both cases, the boot files will be stored within the root partition (/) of each distribution.
 
 If you're not planning for a complex setup involving dual-booting, LVM, RAID, or UEFI systems with limited boot partition size, it's generally safe and recommended to skip creating a separate /boot partition and let the boot files reside within the root partition. This simplifies the partitioning process and doesn't introduce any significant disadvantages for most modern Linux systems.
+
+
+Creating a swap partition or swap file is generally recommended, even if you have a slow disk, as it provides virtual memory when your system runs out of RAM. However, if your disk is significantly slow, you can consider not creating a dedicated swap partition and instead rely on a swap file or no swap at all, but this comes with some trade-offs.
+
+Here are a few points to consider:
+
+1. **No Swap at All**: If you have a lot of RAM (e.g., 16GB or more) and don't plan to use memory-intensive applications or open many applications simultaneously, you could get away with not having any swap space. However, this means that your system won't have any virtual memory to fall back on if you run out of RAM, which could lead to applications crashing or your system becoming unresponsive.
+
+2. **Swap File**: Instead of a dedicated swap partition, you can create a swap file on your root partition (/). This approach can be more flexible than a swap partition, as you can easily resize or move the swap file if needed. However, swap files can be slightly slower than swap partitions, and there is a risk of the swap file becoming fragmented over time, which can further degrade performance.
+
+3. **Smaller Swap Partition**: If you still want to have a dedicated swap partition, you can create a smaller one, such as 4GB or 8GB, instead of allocating the recommended size equal to your RAM. This can help mitigate the performance impact of a slow disk, as the swap will be used less frequently. However, if you run out of both RAM and swap space, you may still encounter system instability or applications crashing.
+
+If you decide not to create a swap partition due to a slow disk, here's how your partitioning scheme could look:
+
+```
+| / (root partition with boot files) | /home (remaining space) |
+```
+
+And for a dual-boot setup with Ubuntu and Fedora, it would be:
+
+```
+| Ubuntu / (25GB+ with boot files) | Fedora / (25GB+ with boot files) | /home/ubuntu (remaining space / 2) | /home/fedora (remaining space / 2) |
+```
+
+In these cases, you can either create a swap file later on the root partition or rely solely on your available RAM.
+
+Keep in mind that not having any swap space can potentially lead to performance issues or system instability if you run resource-intensive applications or open many applications simultaneously. It's generally recommended to have some form of swap space, even if it's a smaller partition or a swap file, to provide a safety net for your system's memory management.
