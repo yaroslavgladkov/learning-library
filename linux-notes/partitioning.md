@@ -31,3 +31,39 @@ Partitioning a hard disk drive (HDD) is an important step when installing Ubuntu
 9. **Proceed with Installation**: After partitioning, continue with the Ubuntu installation process, selecting the appropriate mount points for each partition when prompted.
 
 It's important to note that partitioning can be a complex process, and improper partitioning can lead to data loss. If you're unsure or want a simpler approach, you can also choose the "Erase disk and install Ubuntu" option during installation, which will create a basic partitioning scheme for you automatically.
+
+When creating partitions for Ubuntu with a separate boot partition (/boot), it's recommended to place them in the following order:
+
+1. **Boot Partition (/boot)**
+   - Allocate around 500MB - 1GB of space for this partition.
+   - This partition should be placed at the beginning of the disk.
+   - File system type: ext4
+
+2. **Root Partition (/)**
+   - Allocate at least 25GB of space, but more is recommended for applications and data storage.
+   - Place this partition immediately after the boot partition.
+   - File system type: ext4
+
+3. **Swap Partition**
+   - Size should be equal to your system's RAM, or smaller (e.g., 4-8GB) if you have a lot of RAM.
+   - Place this partition after the root partition.
+   - Partition type: swap area
+
+4. **Home Partition (/home)**
+   - Allocate as much space as needed for your personal files and documents.
+   - Place this partition after the swap partition.
+   - File system type: ext4
+
+The order is important because some bootloaders and firmware implementations expect the boot partition to be located at the beginning of the disk. By placing the /boot partition first, followed by the root partition, you ensure that the boot process can locate the necessary files correctly.
+
+The swap partition is typically placed after the root partition, as it's not directly involved in the boot process but is still needed for virtual memory management.
+
+Finally, the home partition is placed last, as it's primarily used for storing user data and doesn't directly affect the boot process or system operations.
+
+Here's an example of how the partitions might be laid out:
+
+```
+| /boot (500MB - 1GB) | / (25GB+) | swap (RAM size) | /home (remaining space) |
+```
+
+Remember, this is just a general guideline, and you can adjust the partition sizes based on your specific needs and available disk space. It's also a good practice to review your partitioning scheme carefully before applying the changes to ensure that everything is set up correctly.
