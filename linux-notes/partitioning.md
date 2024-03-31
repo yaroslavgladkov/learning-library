@@ -188,3 +188,32 @@ Here's an example of how you can partition the disk while maintaining the standa
 During the installation process for each distribution, you'll need to specify the mount point for the root partition as `/` (without any additional directory name).
 
 By using the standard `/` root directory, you'll minimize compatibility issues and ensure that most applications and system components work as intended, without the need for extensive configuration changes or path adjustments.
+
+
+If you don't create a separate boot partition (/boot) during the partitioning process, the boot files and kernel will be stored within the root partition (/).
+
+This approach is perfectly fine and will work without any issues for most modern systems. In fact, many Linux distributions, including Ubuntu, no longer require a separate /boot partition by default, and the boot files are stored on the root partition.
+
+However, there are a few scenarios where a separate /boot partition can still be beneficial:
+
+1. **Dual-Booting with Other Operating Systems**: If you plan to set up a dual-boot system with multiple Linux distributions or other operating systems like Windows, having a separate /boot partition can make it easier for the boot loader (e.g., GRUB) to manage the boot process for all the installed operating systems.
+
+2. **UEFI Systems with Limited Boot Partition Size**: On some UEFI systems, the EFI System Partition (ESP) used for booting may have a limited size (e.g., 100-500 MB). In such cases, creating a separate /boot partition can help accommodate larger kernel and boot files, especially if you plan to keep multiple kernel versions or distributions on the same system.
+
+3. **LVM or RAID Setups**: If you're using Logical Volume Management (LVM) or RAID configurations, having a separate /boot partition can simplify the setup and maintenance of these advanced storage configurations.
+
+If you decide not to create a separate /boot partition, the partitioning scheme for a single Linux distribution would look something like this:
+
+```
+| / (root partition with boot files) | swap (RAM size) | /home (remaining space) |
+```
+
+And for a dual-boot setup with Ubuntu and Fedora, it would be:
+
+```
+| Ubuntu / (25GB+ with boot files) | Fedora / (25GB+ with boot files) | swap (RAM size) | /home/ubuntu (remaining space / 2) | /home/fedora (remaining space / 2) |
+```
+
+In both cases, the boot files will be stored within the root partition (/) of each distribution.
+
+If you're not planning for a complex setup involving dual-booting, LVM, RAID, or UEFI systems with limited boot partition size, it's generally safe and recommended to skip creating a separate /boot partition and let the boot files reside within the root partition. This simplifies the partitioning process and doesn't introduce any significant disadvantages for most modern Linux systems.
