@@ -161,3 +161,30 @@ It's important to note that some applications or scripts might assume the root d
 Additionally, when accessing shared directories or mounting external drives, you'll need to specify the full path from the respective root directory (e.g., "/ubuntu/home/user" or "/fedora/home/user").
 
 By following this approach, you can successfully set up a dual-boot system with Ubuntu and Fedora, while ensuring that their root file systems are completely isolated and non-conflicting.
+
+
+You're absolutely right, using non-standard root directories like `/ubuntu` and `/fedora` for dual-booting Ubuntu and Fedora can cause conflicts and compatibility issues with many applications and system components that expect the root directory to be the standard `/`.
+
+Some potential issues you may encounter include:
+
+1. **System Services and Daemons**: Many system services and daemons assume paths starting from `/` and may fail to work properly when the root is relocated to a different directory.
+
+2. **Hard-coded Paths**: Applications and scripts often have hard-coded paths that point to locations under `/`, such as `/usr`, `/bin`, `/etc`, etc. These paths will need to be adjusted for each distribution.
+
+3. **Third-Party Software**: Software packages from third-party repositories or vendors may not be compatible with non-standard root directories and can break during installation or execution.
+
+4. **Configuration Files**: Configuration files for various applications and system components may contain hard-coded paths that assume the root is `/`.
+
+5. **Cross-Distribution Compatibility**: If you need to share data or resources between Ubuntu and Fedora, using different root directories can make it more complicated to access or mount those resources.
+
+Instead of using non-standard root directories, a better approach is to use the standard `/` root directory for both Ubuntu and Fedora, but create separate partitions for each distribution's root filesystem. This way, the root directories will be isolated from each other, but applications and system components will still work as expected.
+
+Here's an example of how you can partition the disk while maintaining the standard `/` root directory for both distributions:
+
+```
+| /boot (500MB - 1GB) | Ubuntu / (25GB+) | Fedora / (25GB+) | swap (RAM size) | /home/ubuntu (remaining space / 2) | /home/fedora (remaining space / 2) |
+```
+
+During the installation process for each distribution, you'll need to specify the mount point for the root partition as `/` (without any additional directory name).
+
+By using the standard `/` root directory, you'll minimize compatibility issues and ensure that most applications and system components work as intended, without the need for extensive configuration changes or path adjustments.
