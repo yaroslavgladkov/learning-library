@@ -27,7 +27,7 @@ The Open Systems Interconnection (OSI) model is a conceptual framework used to d
 
 The OSI model provides a standardized framework for designing and implementing network protocols, enabling interoperability between diverse systems and networks. While not all networking implementations strictly adhere to the OSI model, it serves as a valuable reference for understanding and troubleshooting network communications.
 
-# provide examples of what really is happening on each layer, show concrete changes happening with message data
+# provide examples of what is really happening on each layer, show concrete changes happening with message data
 
 Certainly, here are examples of what happens at each layer of the OSI model with a data message, illustrating the concrete changes that occur as the message travels through the layers:
 
