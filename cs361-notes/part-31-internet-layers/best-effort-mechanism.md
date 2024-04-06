@@ -47,3 +47,18 @@ DiffServ is widely deployed in modern networks due to its scalability and flexib
 Apart from IntServ and DiffServ, other mechanisms such as Software-Defined Networking (SDN) and Network Function Virtualization (NFV) are also being used to provide QoS guarantees by leveraging programmable network infrastructure and virtualized network functions.
 
 The choice of mechanism depends on the specific QoS requirements of the applications, the network infrastructure, and the scalability and management considerations. IntServ is suitable for applications with stringent real-time requirements, while DiffServ is more scalable and widely adopted for providing different service levels to different traffic classes.
+
+#3
+The term "best-effort" in the context of computer networking is derived from the fact that the network infrastructure (routers, switches, etc.) makes its "best effort" to deliver data packets to their intended destination, but it does not provide any guarantees about the successful delivery, delay, or throughput of the packets.
+
+The name "best-effort" implies that the network will do its best to forward and deliver the packets, but it does not make any promises or reservations about the resources or performance levels that will be provided to a particular data flow or connection.
+
+The origin of the term can be traced back to the early development of packet-switched networks, such as the ARPANET (the precursor to the modern Internet), where the concept of a connectionless, best-effort delivery mechanism was introduced.
+
+In a connectionless, best-effort network, each packet is treated independently and forwarded based on its destination address, without establishing a dedicated end-to-end connection or reserving resources for a specific data flow. The network devices (routers and switches) simply forward the packets based on their routing tables and the available resources at that moment, without any guarantees or prioritization.
+
+The term "best-effort" contrasts with other mechanisms that provide Quality of Service (QoS) guarantees, such as Integrated Services (IntServ) or Differentiated Services (DiffServ), where resources are reserved or prioritized for specific data flows or traffic classes to ensure certain performance levels.
+
+The "best-effort" mechanism was chosen for the early packet-switched networks because it was simple, efficient, and scalable. It allowed the network to operate without complex resource management or reservation mechanisms, which would have increased overhead and complexity. However, this simplicity came at the cost of not providing any guarantees for applications that require strict QoS requirements, such as real-time audio and video streaming or mission-critical industrial control systems.
+
+In summary, the term "best-effort" in networking refers to the fact that the network infrastructure makes its best attempt to deliver data packets to their destination, but without any explicit guarantees or reservations regarding delivery, delay, or throughput. The name emphasizes the effort made by the network, while acknowledging the lack of strict performance guarantees.
