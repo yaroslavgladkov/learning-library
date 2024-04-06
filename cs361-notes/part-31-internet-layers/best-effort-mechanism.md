@@ -1,6 +1,7 @@
 claude-3-sonnet
 
-# The best-effort mechanism is a fundamental principle in computer networking that governs how data packets are transmitted across a network. In a best-effort network, the network infrastructure (routers, switches, etc.) makes its best attempt to deliver data packets to their intended destination, but it does not provide any guarantees regarding the delivery, delay, or throughput of the packets. This mechanism is commonly used in packet-switched networks, such as the Internet and most local area networks (LANs).
+# 1
+The best-effort mechanism is a fundamental principle in computer networking that governs how data packets are transmitted across a network. In a best-effort network, the network infrastructure (routers, switches, etc.) makes its best attempt to deliver data packets to their intended destination, but it does not provide any guarantees regarding the delivery, delay, or throughput of the packets. This mechanism is commonly used in packet-switched networks, such as the Internet and most local area networks (LANs).
 
 The key characteristics of the best-effort mechanism are:
 
@@ -20,7 +21,8 @@ To address QoS requirements, various techniques and mechanisms have been develop
 
 In summary, the best-effort mechanism is a fundamental principle in computer networking that focuses on delivering data packets to their intended destination without any guarantees regarding delivery, delay, or throughput. It is widely used in the Internet and many other networks due to its simplicity and efficiency, but it may not be suitable for applications with strict QoS requirements.
 
-# For applications with strict Quality of Service (QoS) requirements, several mechanisms have been developed to provide guarantees for packet delivery, bandwidth allocation, latency, and other performance parameters. These mechanisms can be broadly categorized into two main approaches: Integrated Services (IntServ) and Differentiated Services (DiffServ).
+# 2
+For applications with strict Quality of Service (QoS) requirements, several mechanisms have been developed to provide guarantees for packet delivery, bandwidth allocation, latency, and other performance parameters. These mechanisms can be broadly categorized into two main approaches: Integrated Services (IntServ) and Differentiated Services (DiffServ).
 
 1. Integrated Services (IntServ):
 The IntServ architecture provides end-to-end QoS guarantees by reserving resources along the path from the source to the destination. It uses the Resource Reservation Protocol (RSVP) to signal the resource requirements of a flow and reserve the necessary resources at each router along the path. Two main service classes are defined in IntServ:
