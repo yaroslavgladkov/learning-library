@@ -1,3 +1,5 @@
+claude-3-sonnet
+
 # explain in details what exactly docker virtualizes while running on ubuntu
 
 Docker is a containerization platform that allows you to package applications and their dependencies into isolated and portable containers. When running on Ubuntu, Docker virtualizes the operating system kernel and its resources, enabling you to run multiple containers on the same host machine while maintaining isolation between them.
