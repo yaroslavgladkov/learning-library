@@ -1,3 +1,5 @@
+claude-3-sonnet
+
 # provide detailed explanation of osi model, use professional terminology
 
 The Open Systems Interconnection (OSI) model is a conceptual framework used to describe the functions of a networking system. It was developed by the International Organization for Standardization (ISO) in the late 1970s as a reference model for defining standards for communication between different systems. The OSI model consists of seven distinct layers, each with specific functions and protocols, enabling communication between diverse systems.
