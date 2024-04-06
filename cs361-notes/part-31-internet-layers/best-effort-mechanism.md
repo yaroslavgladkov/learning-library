@@ -48,7 +48,7 @@ Apart from IntServ and DiffServ, other mechanisms such as Software-Defined Netwo
 
 The choice of mechanism depends on the specific QoS requirements of the applications, the network infrastructure, and the scalability and management considerations. IntServ is suitable for applications with stringent real-time requirements, while DiffServ is more scalable and widely adopted for providing different service levels to different traffic classes.
 
-#3
+# 3
 The term "best-effort" in the context of computer networking is derived from the fact that the network infrastructure (routers, switches, etc.) makes its "best effort" to deliver data packets to their intended destination, but it does not provide any guarantees about the successful delivery, delay, or throughput of the packets.
 
 The name "best-effort" implies that the network will do its best to forward and deliver the packets, but it does not make any promises or reservations about the resources or performance levels that will be provided to a particular data flow or connection.
