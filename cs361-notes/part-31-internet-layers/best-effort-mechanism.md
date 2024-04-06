@@ -1,6 +1,7 @@
 claude-3-sonnet
 
-# 1
+# provide detailed explanation of best-effort mechanism of networking
+
 The best-effort mechanism is a fundamental principle in computer networking that governs how data packets are transmitted across a network. In a best-effort network, the network infrastructure (routers, switches, etc.) makes its best attempt to deliver data packets to their intended destination, but it does not provide any guarantees regarding the delivery, delay, or throughput of the packets. This mechanism is commonly used in packet-switched networks, such as the Internet and most local area networks (LANs).
 
 The key characteristics of the best-effort mechanism are:
@@ -21,7 +22,8 @@ To address QoS requirements, various techniques and mechanisms have been develop
 
 In summary, the best-effort mechanism is a fundamental principle in computer networking that focuses on delivering data packets to their intended destination without any guarantees regarding delivery, delay, or throughput. It is widely used in the Internet and many other networks due to its simplicity and efficiency, but it may not be suitable for applications with strict QoS requirements.
 
-# 2
+# which mechanisms is used for applications with strict qos requirements
+
 For applications with strict Quality of Service (QoS) requirements, several mechanisms have been developed to provide guarantees for packet delivery, bandwidth allocation, latency, and other performance parameters. These mechanisms can be broadly categorized into two main approaches: Integrated Services (IntServ) and Differentiated Services (DiffServ).
 
 1. Integrated Services (IntServ):
@@ -48,7 +50,8 @@ Apart from IntServ and DiffServ, other mechanisms such as Software-Defined Netwo
 
 The choice of mechanism depends on the specific QoS requirements of the applications, the network infrastructure, and the scalability and management considerations. IntServ is suitable for applications with stringent real-time requirements, while DiffServ is more scalable and widely adopted for providing different service levels to different traffic classes.
 
-# 3
+# where exactly best effort mechanism name derived from
+
 The term "best-effort" in the context of computer networking is derived from the fact that the network infrastructure (routers, switches, etc.) makes its "best effort" to deliver data packets to their intended destination, but it does not provide any guarantees about the successful delivery, delay, or throughput of the packets.
 
 The name "best-effort" implies that the network will do its best to forward and deliver the packets, but it does not make any promises or reservations about the resources or performance levels that will be provided to a particular data flow or connection.
