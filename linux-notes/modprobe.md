@@ -1,4 +1,4 @@
-llama-3
+llama-3-70b-instruct
 
 In Linux, `modprobe` is a command that allows you to dynamically load and unload kernel modules. Kernel modules are pieces of code that can be loaded into the kernel to provide additional functionality or support for specific hardware devices. Here's a detailed explanation of what the `modprobe` command does:
 
