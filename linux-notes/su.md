@@ -49,3 +49,11 @@ Here are some examples of how `su` can be used:
 * `su -s /bin/sh username` - Switch to the specified user and use a specific shell (in this case, `/bin/sh`)
 
 Keep in mind that `su` can be a security risk if not used carefully, as it allows users to access sensitive system resources and data. It's essential to use `su` responsibly and only when necessary, and to ensure that you understand the implications of switching to a different user account.
+
+When you use the `su` command without specifying a username, it defaults to switching to the superuser or root account.
+
+In other words, if you simply type `su` and press Enter, you will be prompted to enter the root password, and if authenticated successfully, you will be switched to the root user account.
+
+This is because the `su` command is short for "substitute user" or "switch user", and when used without a username, it assumes you want to switch to the highest-privileged user on the system, which is typically the root user.
+
+So, to answer your question, if you use the `su` command without specifying a username, you will be switched to the root user by default.
