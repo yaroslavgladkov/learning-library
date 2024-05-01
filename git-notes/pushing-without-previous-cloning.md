@@ -1,6 +1,6 @@
 llama-3-sonar-large-32k-chat
 
-I'd be happy to help you understand working with Git and GitHub.
+# I'd be happy to help you understand working with Git and GitHub.
 
 Yes, you can initiate a Git repository locally and then add it to an already existing repository on GitHub. Here's a step-by-step guide to help you achieve this:
 
@@ -63,7 +63,7 @@ Some additional tips:
 
 I hope this helps Let me know if you have any further questions.
 
-When adding a remote repository using `git remote add`, you can use either SSH or HTTPS links, depending on your preference and the security requirements of your project.
+# When adding a remote repository using `git remote add`, you can use either SSH or HTTPS links, depending on your preference and the security requirements of your project.
 
 **SSH Link**
 
@@ -115,7 +115,7 @@ In your case, if you're just starting out, you can use the HTTPS link. It's easi
 
 Remember to replace `<username>` and `<repository_name>` with your actual GitHub username and repository name.
 
-Let's break down the `git push -u origin master` command into its individual components:
+# Let's break down the `git push -u origin master` command into its individual components:
 
 **`git push`**
 
