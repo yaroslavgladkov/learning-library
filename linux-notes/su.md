@@ -57,3 +57,19 @@ In other words, if you simply type `su` and press Enter, you will be prompted to
 This is because the `su` command is short for "substitute user" or "switch user", and when used without a username, it assumes you want to switch to the highest-privileged user on the system, which is typically the root user.
 
 So, to answer your question, if you use the `su` command without specifying a username, you will be switched to the root user by default.
+
+When you use `su -` (with a hyphen), it's a slightly different story.
+
+The hyphen `-` is an option that tells `su` to simulate a login shell, which means it will not only switch to the target user (in this case, root) but also:
+
+1. Change to the target user's home directory.
+2. Set the target user's environment variables.
+3. Read the target user's shell configuration files (e.g., `.bashrc`, `.profile`, etc.).
+
+In other words, `su -` provides a more complete and immersive experience as the target user, as if you had logged in directly as that user.
+
+So, when you use `su -`, you will be switched to the root user, and your shell will be reset to a root shell, with all the environment variables and settings that come with it.
+
+In practice, `su -` is often used when you need to perform a series of commands as root, and you want to ensure that you have a fully initialized root environment.
+
+Does that make sense?
