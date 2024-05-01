@@ -157,3 +157,47 @@ To https://github.com/<github-username>/<repository-name>.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 This output indicates that the push was successful, and the upstream tracking information has been set for your local `master` branch.
+
+# Let's dive deeper into the `-u` option and its effects on Git's tracking information.
+
+**What is upstream tracking information?**
+
+In Git, each branch can have an "upstream" tracking configuration. This configuration tells Git which remote branch to use as the default tracking branch for a particular local branch.
+
+Think of it like a mapping between your local branch and a remote branch. When you set the upstream tracking information, you're telling Git: "Hey, whenever I'm on this local branch, I want to track changes from this specific remote branch."
+
+**What does the `-u` option do?**
+
+When you use the `-u` option with `git push`, you're telling Git to set the upstream tracking information for the branch you're pushing. This means that Git will create a mapping between your local branch and the remote branch you're pushing to.
+
+Here's what happens when you run `git push -u origin master`:
+
+1. Git pushes the latest changes from your local `master` branch to the remote `master` branch on the `origin` repository.
+2. Git sets the upstream tracking information for your local `master` branch, linking it to the remote `master` branch on `origin`.
+
+**How does this affect future Git commands?**
+
+With the upstream tracking information set, future Git commands like `git pull` and `git push` will automatically know which remote branch to use. Here's how:
+
+* **`git pull`**: When you run `git pull` without specifying a remote branch, Git will automatically fetch changes from the remote branch that's linked to your local branch (in this case, `origin/master`). This means you don't need to specify the remote branch every time you pull changes.
+* **`git push`**: When you run `git push` without specifying a remote branch, Git will automatically push changes to the remote branch that's linked to your local branch (again, `origin/master`). This means you don't need to specify the remote branch every time you push changes.
+
+**Example:**
+
+Let's say you have a local branch called `feature/new-feature` and you want to push it to a remote branch called `feature/new-feature` on the `origin` repository. You can run:
+```
+git push -u origin feature/new-feature
+```
+This sets the upstream tracking information for your local `feature/new-feature` branch, linking it to the remote `feature/new-feature` branch on `origin`.
+
+Now, when you run `git pull` or `git push` without specifying a remote branch, Git will automatically use the `origin/feature/new-feature` branch:
+```
+git pull  # fetches changes from origin/feature/new-feature
+git push  # pushes changes to origin/feature/new-feature
+```
+Without the `-u` option, you would need to specify the remote branch every time you run `git pull` or `git push`:
+```
+git pull origin feature/new-feature
+git push origin feature/new-feature
+```
+By using the `-u` option, you can simplify your Git workflow and avoid specifying the remote branch every time you run `git pull` or `git push`.
