@@ -1,6 +1,6 @@
 llama-3-sonar-large-32k-chat
 
-The `su -` command is a Linux/Unix command that allows you to switch to a different user account, typically with superuser (root) privileges.
+# The `su -` command is a Linux/Unix command that allows you to switch to a different user account, typically with superuser (root) privileges.
 
 Here's a breakdown of the command:
 
@@ -22,7 +22,7 @@ Here are some examples:
 
 Note that `su -` is often used to gain root privileges, but it's not the only way to do so. Other commands, such as `sudo`, can also be used to elevate privileges temporarily.
 
-The `su` command serves several purposes:
+# The `su` command serves several purposes:
 
 1. **Switching to a different user account**: The primary purpose of `su` is to switch to a different user account, allowing you to access files, directories, and system resources that are restricted to that user.
 2. **Elevating privileges**: `su` is often used to gain superuser (root) privileges, which are required to perform system administration tasks, such as installing software, configuring system settings, or accessing sensitive files.
@@ -50,7 +50,7 @@ Here are some examples of how `su` can be used:
 
 Keep in mind that `su` can be a security risk if not used carefully, as it allows users to access sensitive system resources and data. It's essential to use `su` responsibly and only when necessary, and to ensure that you understand the implications of switching to a different user account.
 
-When you use the `su` command without specifying a username, it defaults to switching to the superuser or root account.
+# When you use the `su` command without specifying a username, it defaults to switching to the superuser or root account.
 
 In other words, if you simply type `su` and press Enter, you will be prompted to enter the root password, and if authenticated successfully, you will be switched to the root user account.
 
